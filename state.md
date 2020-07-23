@@ -4,9 +4,17 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+set state is a fuunction that set ups our state objct. 
+
+State 
+
 2.  Where do you set initial state?
 
+We set state  up in the constructor, After the constructor 
+
 3.  What method do you use to update state?
+
+This.setState
 
 ### Understand
 
@@ -41,11 +49,17 @@ class LeadMentor extends Component {
 }
 ```
 
+
+<!-- Updating the questions answered to onClick -->
+
 ### Apply
 
 Try these on your own, but work together if you start to get stuck.
 
 5.  Create a `Student` component that keeps track of the number of questions the student has asked, with a button that adds 1 to the total when it's clicked
+
+
+
 
 6.  Now add a text input where the student can type in their questions with a button to add them to a list of questions that is displayed below the number of questions asked.
 
@@ -57,4 +71,8 @@ Discuss these questions as a group
 
 8.  What are the pros and cons of using a class method for an event handler vs. using an arrow function inline?
 
+<!-- Whether it's a functinal-based component a stateful compoment. The difference is that class-based components hold state.  -->
+
 9.  The render() method is called every time a component's state is updated. For a text input, that means the render method is called for every keypress. Why isn't this bad for performance?
+
+<!-- React haws what is called the virtual Dom-dom. React is able to update only the nodes that are needed. It won't waste time going through every node. vanilla javascrip will cause the whole page to re-render.  -->

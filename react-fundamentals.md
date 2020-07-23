@@ -4,21 +4,36 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+A javascript database 
+
 2.  What is create-react-app?
+React is a Boiler-plate that creates a React application that fills in a
 
 3.  What is Component Based Architecture?
 
+
 4.  What is JSX?
 
+A syntax that allows us to use javascript funcationality in HTML
+
+
 5.  What is the virtual DOM?
+<!-- https://stackoverflow.com/questions/21965738/what-is-virtual-dom -->
 
 6.  What is unidirectional (one-way) data flow?
+
+
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+
+    <!-- 
+    1. Creates folders called the 'app-you-created"
+    2. creates a git respository
+    3.  -->
 
 8.  Summarize the steps for forking and cloning a repo with an existing React app. How does this process differ from the process of creating a new React app on your laptop?
 

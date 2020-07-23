@@ -10,6 +10,8 @@ Answer these on your own, then compare answers as a group
 
 4.  How do you access props from a functional component?
 
+React haws what is called the virtual Dom-dom. React is able to update only the nodes that are needed. It won't waste time going through every node. 
+
 5.  How do you bind a function to a parent component so that it can be passed to a child?
 
 ### Understand
